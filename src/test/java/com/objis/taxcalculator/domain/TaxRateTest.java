@@ -32,7 +32,7 @@ public class TaxRateTest {
         assertEquals(22000 * SECOND_TAX_BRACKET_RATE,
                      rate.calculateTax(60000), 0.0);
         assertEquals(22000 * SECOND_TAX_BRACKET_RATE,
-                     rate.calculateTax(80000), 0.0);
+                     rate.calculateTax(800000), 0.0);
     }    
 
     
@@ -47,7 +47,7 @@ public class TaxRateTest {
         assertEquals(20000 * THIRD_TAX_BRACKET_RATE,
                      rate.calculateTax(80000), 0.0);        
         assertEquals(40000 * THIRD_TAX_BRACKET_RATE,
-                     rate.calculateTax(100000), 0.0);                
+                     rate.calculateTax(1000000), 0.0);                
     }
     
     public void testCalculateTax4() {
